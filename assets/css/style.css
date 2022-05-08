@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+   
+}
+section{
+    margin: 5px 0;
+}
+h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+ul{
+    max-width: 100%;
+    font-size: 13px;
+}
+p{
+    font-size: 13px;
+}
+.page{
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: #fff;
+    width: 40%;
+    min-height: 100vh;
+   
+}
+.fullname{
+    border-bottom: 3px solid black;
+    font-size: 30px;
+}
+.name{
+    font-weight: bold;
+}
+.cv_topic_high_box{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 10%;
+
+}
+.cv_topic_high_box>ul{
+    max-width: 40%;
+    
+}
+.cv_topic_high_box>ul>li{
+    margin: 5px 0;
+}
+.cv_topic_exp_box{
+    display: flex;
+    gap: 5%;
+    
+}
+.cv_topic_exp_box p{
+    font-weight: bold;
+}
+.job_box_detail{
+    padding: 5px 5%;
+}
+.add_text{
+    margin-left: 25%;
+}
+.edu_date{
+    margin-right: 15%;
+}
